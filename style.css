@@ -1,0 +1,254 @@
+body {
+  background: url(./imgs/bg.png) top center no-repeat #eae8e9;
+}
+.main.w12 {
+  max-width: 1220px;
+  padding: 0 10px;
+  background: #fff;
+}
+.main {
+  margin: auto;
+}
+.mtren nav {
+  background-color: #007c00;
+  height: 41px;
+}
+.mphai li a {
+  font-family: 'Montserrat', sans-serif;
+  color: white !important;
+  font-size: 15px;
+  padding: 8.5px 28px;
+  text-transform: uppercase;
+  margin-right: 15px;
+}
+
+.mphai li a.active {
+  color: #eff000 !important;
+}
+
+.logoheader {
+  margin-left: 90px;
+}
+
+.bannermenu {
+  padding: 40px 0 10px;
+}
+
+.bannermenu .container {
+  background-color: white;
+}
+.bannermenu .logo {
+  padding: 50px 0;
+}
+
+.bannermenu a img {
+  height: auto;
+}
+
+.bannermenu .right {
+  float: left;
+}
+
+.bannermenu .right .block-header span {
+  font-size: 30px;
+  color: red;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.bannermenu .right .block-header i {
+  font-size: 30px;
+  color: red;
+}
+
+.bannermenu .right .block-header .box-search form {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0px 0px 0 15px;
+  border-radius: 30px;
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.nuttkiem {
+  border: none;
+  padding: 7px;
+  width: 95%;
+}
+.bannermenu .right .block-header i.fab {
+  font-size: 24px;
+  color: #007c00;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.sanpham .heading {
+  background: linear-gradient(#3234a2, #2e3093);
+  background: #007c00;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 12px 10px;
+  border-radius: 8px 8px 0 0;
+  text-align: left;
+  margin-top: 0;
+}
+
+.sanpham .heading {
+  background: #f1f1f1 url(./imgs/heading_top11.jpg) top right no-repeat;
+  border-bottom: 2px solid #007c00;
+  padding: 0;
+  border-radius: 10px 0px 0px 10px;
+}
+.sanpham .heading .tst {
+  background: linear-gradient(#3234a2, #2e3093);
+  background: #007c00;
+  display: inline-block;
+  border-radius: 10px 0px 0px 8px;
+  position: relative;
+  padding: 9.5px 60px 9.5px 15px;
+  color: white;
+}
+
+.sanpham .heading .tst::after {
+  position: absolute;
+  right: -7px;
+  top: 0;
+  background: url(./imgs/2.jpg) center no-repeat;
+  width: 28px;
+  height: 35px;
+  content: '';
+}
+
+.sanpham .heading .xemtc {
+  float: right;
+  font-size: 13px;
+  text-transform: none;
+  color: #333;
+  display: inline-block;
+  padding: 10px;
+}
+
+.khoisp {
+  margin: 0;
+  padding: 0;
+}
+
+.khoisp .itemkhoisp {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 4px;
+  padding-bottom: 30px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.khoisp .itemkhoisp img {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.khoisp .itemkhoisp .tensp {
+  display: table-cell;
+  vertical-align: middle;
+  color: #333;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  overflow: hidden;
+}
+
+.khoisp .itemkhoisp .giasp {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #ef0000;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+}
+.khoisp .itemkhoisp .order {
+  background: #007c00;
+  font-weight: 500;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 6.5px 12px;
+  color: #fff;
+  float: left;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-top: 0 !important;
+  display: inline-block;
+}
+
+.khoisp .itemkhoisp .detail {
+  background: #007c00;
+  font-weight: 500;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 6.5px 12px;
+  color: #fff;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-top: 0 !important;
+  display: inline-block;
+  float: right;
+  background: #f1f1f1;
+  color: #333;
+}
+
+.blockproduct {
+  padding-right: 0 !important;
+}
+
+.khoimenu {
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 12px 10px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+  margin: 0;
+}
+
+.product {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.tendmsp {
+  font-family: 'Montserrat', sans-serif;
+  background: #007c00;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 12px 10px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+  margin: 0;
+}
+
+.menu-item {
+  margin: 0 0px;
+  position: relative;
+  list-style: none;
+}
+
+.menu-danhmucsp li.menu-item {
+  border-bottom: 1px solid #dddddd;
+  padding: 5px 18px;
+}
+
+.menu-danhmucsp ul {
+  background-color: #f1f1f1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
